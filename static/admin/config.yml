@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo:  Livins1/BlogPosts
+  repo: Livins1/Blog
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: static/img
