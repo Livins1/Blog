@@ -1,17 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Sybanic`,
     author: {
-      name: `Kyle Mathews`,
+      name: `Livins1`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: ``,
+    siteUrl: `http://furthers.pro`,
     social: {
-      twitter: `kylemathews`,
+      github: `Livins1`,
     },
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
